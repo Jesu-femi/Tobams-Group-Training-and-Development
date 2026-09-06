@@ -4,7 +4,7 @@ export default function Hero() {
 	return (
 		<section className="relative flex flex-col items-center justify-center gap-10 overflow-hidden px-6 py-16 md:px-16 lg:py-28">
 			<Image
-				src="/Heroimage.jpg"
+				src="/HeroImage.jpg"
 				alt="A woman reviewing data on a laptop, surrounded by abstract charts and graphics"
 				fill
 				priority
