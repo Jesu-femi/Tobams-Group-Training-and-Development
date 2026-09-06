@@ -7,10 +7,19 @@
 	--color-brand-border: #ddd0da;
 	--color-brand-dark: #2c0922;
 	--color-brand-tint: #8f6182;
+	--color-brand-darker: #1d0617;
+	--color-brand-darkest: #11040e;
 	--font-heading: var(--font-nunito);
 }
 
 body {
 	background: #ffffff;
 	color: var(--color-brand-text);
+}
+.no-scrollbar {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
 }

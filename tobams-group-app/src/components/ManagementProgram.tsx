@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Zap } from "lucide-react";
 
 const benefits = [
@@ -10,11 +11,14 @@ const benefits = [
 export default function ManagementProgram() {
 	return (
 		<section className="px-6 py-16 md:px-16 lg:py-28">
-			<div className="mx-auto flex w-full max-w-6xl flex-col gap-8 rounded-2xl bg-brand-dark p-6 md:p-10 lg:flex-row lg:items-center lg:gap-12">
-				<div className="relative aspect-4/3 w-full overflow-hidden rounded-lg lg:flex-1">
-					{/* 🖼️ IMAGE NEEDED: three colleagues collaborating over a
-              tablet in a bright office corridor */}
-					<div className="absolute inset-0 bg-zinc-400" />
+			<div className="mx-auto flex w-full max-w-6xl flex-col gap-8 rounded-2xl bg-brand-dark p-6 md:p-10 lg:flex-row lg:items-stretch lg:gap-12">
+				<div className="relative aspect-4/5 w-full overflow-hidden rounded-lg lg:aspect-auto lg:h-auto lg:flex-1">
+					<Image
+						src="/Managementimage.jpg"
+						alt="Three colleagues collaborating over a tablet in a bright office corridor"
+						fill
+						className="object-cover"
+					/>
 				</div>
 
 				<div className="flex flex-1 flex-col items-start gap-8">
