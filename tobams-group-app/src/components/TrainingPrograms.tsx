@@ -33,6 +33,7 @@ export default function TrainingPrograms() {
 				title="Corporate Trainings"
 				description="Empower your team with our customised Corporate Training programs designed to address the unique needs and objectives of your organisation. Our expert facilitators work closely with your team to deliver tailored learning experiences that align with your company's goals and values."
 				bullets={corporateBullets}
+				imageSrc="/Trainingimage1.jpg"
 				imageAlt="A facilitator leading a corporate training session with a group of employees"
 				imagePosition="right"
 			/>
@@ -40,12 +41,14 @@ export default function TrainingPrograms() {
 				title="Personalised Individual Training"
 				description="Begin a journey of lifelong learning and professional development with Tobams Group's diverse range of training programs for individuals. From technical skills mastery to soft skills enhancement, our courses cover a wide spectrum of topics to meet the evolving needs of today's professionals."
 				bullets={individualBullets}
+				imageSrc="/Trainingimage2.jpg"
 				imageAlt="A woman attentively participating in a training workshop"
 			/>
 			<FeatureBlock
 				title="Capacity Development"
 				description="At Tobams Group, we empower individuals and organizations through tailored training programs, expert-led workshops, and personalized mentorship. We are committed to your success and growth."
 				bullets={capacityBullets}
+				imageSrc="/Trainingimage3.jpg"
 				imageAlt="A trainer presenting charts on a flip chart to colleagues in an office"
 				imagePosition="right"
 			/>

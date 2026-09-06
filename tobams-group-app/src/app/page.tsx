@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import LmsBlock from "@/components/LmsBlock";
 import TrainingPrograms from "@/components/TrainingPrograms";
+import ManagementProgram from "@/components/ManagementProgram";
 
 export default function Home() {
 	return (
@@ -8,6 +9,7 @@ export default function Home() {
 			<Hero />
 			<LmsBlock />
 			<TrainingPrograms />
+			<ManagementProgram />
 		</main>
 	);
 }

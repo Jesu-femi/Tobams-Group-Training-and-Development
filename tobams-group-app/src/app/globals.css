@@ -5,6 +5,8 @@
 	--color-brand-secondary: #ef4353;
 	--color-brand-text: #151515;
 	--color-brand-border: #ddd0da;
+	--color-brand-dark: #2c0922;
+	--color-brand-tint: #8f6182;
 	--font-heading: var(--font-nunito);
 }
 

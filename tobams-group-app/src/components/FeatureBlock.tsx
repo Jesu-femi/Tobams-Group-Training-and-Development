@@ -1,9 +1,11 @@
+import Image from "next/image";
 import { Zap } from "lucide-react";
 
 type FeatureBlockProps = {
 	title: string;
 	description: string;
 	bullets: string[];
+	imageSrc: string;
 	imageAlt: string;
 	imagePosition?: "left" | "right";
 };
@@ -12,18 +14,17 @@ export default function FeatureBlock({
 	title,
 	description,
 	bullets,
+	imageSrc,
 	imageAlt,
 	imagePosition = "left",
 }: FeatureBlockProps) {
 	return (
 		<div className="flex w-full max-w-6xl flex-col items-center gap-8 lg:flex-row lg:gap-16">
 			<div
-				className={`aspect-3/2 w-full shrink-0 rounded-tl-3xl rounded-br-3xl bg-zinc-400 lg:w-1/2 ${
+				className={`relative aspect-3/2 w-full shrink-0 overflow-hidden rounded-tl-3xl rounded-br-3xl lg:w-1/2 ${
 					imagePosition === "right" ? "lg:order-last" : ""
-				}`}
-				aria-label={imageAlt}
-				role="img">
-				{/* 🖼️ IMAGE NEEDED: {imageAlt} */}
+				}`}>
+				<Image src={imageSrc} alt={imageAlt} fill className="object-cover" />
 			</div>
 
 			<div className="flex flex-1 flex-col items-start gap-5">
