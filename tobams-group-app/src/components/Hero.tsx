@@ -8,6 +8,7 @@ export default function Hero() {
 				alt="A woman reviewing data on a laptop, surrounded by abstract charts and graphics"
 				fill
 				priority
+				sizes="100vw"
 				className="object-cover -z-20"
 			/>
 			<div className="absolute inset-0 -z-10 bg-black/30" />

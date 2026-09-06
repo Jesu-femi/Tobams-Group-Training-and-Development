@@ -17,6 +17,7 @@ export default function ManagementProgram() {
 						src="/Managementimage.jpg"
 						alt="Three colleagues collaborating over a tablet in a bright office corridor"
 						fill
+						sizes="(min-width: 1024px) 50vw, 100vw"
 						className="object-cover"
 					/>
 				</div>

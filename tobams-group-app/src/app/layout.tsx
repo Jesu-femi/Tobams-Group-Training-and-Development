@@ -27,7 +27,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 		<html
 			lang="en"
 			className={`${nunito.variable} ${nunitoSans.variable} h-full antialiased`}>
-			<body className="min-h-full flex flex-col font-sans">
+			<body
+				suppressHydrationWarning
+				className="min-h-full flex flex-col font-sans">
 				<Header />
 				{children}
 				<Footer />

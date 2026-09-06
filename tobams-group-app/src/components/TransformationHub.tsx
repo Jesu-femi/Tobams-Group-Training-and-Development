@@ -39,6 +39,7 @@ export default function TransformationHub() {
 							src="/TransformationHubImage.jpg"
 							alt="A woman standing before a glass wall of glowing data visualizations, moody blue and amber lighting"
 							fill
+							sizes="(min-width: 1280px) 560px, 100vw"
 							className="object-cover"
 						/>
 					</div>

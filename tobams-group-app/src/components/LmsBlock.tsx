@@ -19,6 +19,7 @@ export default function LmsBlock() {
 						src="/LmsImage.jpg"
 						alt="Two colleagues, a man and a woman, smiling together in a bright office"
 						fill
+						sizes="(min-width: 1280px) 448px, 384px"
 						className="object-cover"
 					/>
 				</div>

@@ -68,6 +68,7 @@ export default function Testimonials() {
 
 				<div
 					ref={scrollRef}
+                    tabIndex={0}
 					className="no-scrollbar flex snap-x snap-mandatory gap-6 overflow-x-auto pb-4">
 					{testimonials.map((testimonial) => (
 						<div

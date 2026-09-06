@@ -24,7 +24,13 @@ export default function FeatureBlock({
 				className={`relative aspect-3/2 w-full shrink-0 overflow-hidden rounded-tl-3xl rounded-br-3xl lg:w-1/2 ${
 					imagePosition === "right" ? "lg:order-last" : ""
 				}`}>
-				<Image src={imageSrc} alt={imageAlt} fill className="object-cover" />
+				<Image
+					src={imageSrc}
+					alt={imageAlt}
+					fill
+					sizes="(min-width: 1024px) 50vw, 100vw"
+					className="object-cover"
+				/>
 			</div>
 
 			<div className="flex flex-1 flex-col items-start gap-5">
